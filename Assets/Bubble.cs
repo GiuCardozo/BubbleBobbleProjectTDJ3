@@ -146,7 +146,7 @@ public class Bubble : MonoBehaviour
                     }
                 }
 
-                ForcePop(); // Esta burbuja también se revienta
+                ForcePop(); // Esta burbuja también se fuerza a reventar
             }
         }
     }
