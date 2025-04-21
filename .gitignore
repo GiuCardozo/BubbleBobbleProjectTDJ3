@@ -1,0 +1,40 @@
+# Archivos y carpetas generadas por Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+sysinfo.txt
+
+# IDEs y configuración
+.vscode/
+.idea/
+.vs/
+*.sln
+*.csproj
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+*.pidb.meta
+
+# Compilados
+*.dll
+*.exe
+*.apk
+*.aab
+*.jar
+*.pdb
+*.mdb
+
+# Archivos de burst que pesan mucho
+Library/PackageCache/com.unity.burst@*/.Runtime/*
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
