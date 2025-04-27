@@ -13,9 +13,12 @@ public class Player1Movement : MonoBehaviour
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
 
+    private Collider2D playerCollider;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        playerCollider = GetComponent<Collider2D>();
     }
 
     void Update()
@@ -41,5 +44,19 @@ public class Player1Movement : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
+
+        // Dejarse caer presionando S
+        if (Input.GetKeyDown(KeyCode.S) && isGrounded)
+        {
+            StartCoroutine(DisableCollision());
+        }
+    }
+
+    IEnumerator DisableCollision()
+    {
+        // Ignora la colisión con las plataformas temporalmente
+        playerCollider.enabled = false;
+        yield return new WaitForSeconds(0.5f); // Tiempo suficiente para atravesar la plataforma
+        playerCollider.enabled = true;
     }
 }
