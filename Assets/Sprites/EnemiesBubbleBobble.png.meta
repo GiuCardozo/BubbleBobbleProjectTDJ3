@@ -1,0 +1,4250 @@
+fileFormatVersion: 2
+guid: 7e273e89d50aae34e828e02f1f849930
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b542b9ee34842964aadb9795013bf9a2
+      internalID: 848477278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1d60adcd440894895cd7214e864105
+      internalID: 265150049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319cd25f939b2b543ad6a7fd19037542
+      internalID: -419089088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74dcf3e1b65bf85448494ff5ef258971
+      internalID: 1619703130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3eb15554bc3d61439ca7b4b140bcae7
+      internalID: -332581234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5498ad8f809a0747b4654bdc174bafc
+      internalID: 1387399463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e806adb60979714e8be80e660dc1f8c
+      internalID: 1766512801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65214f4be6f83e143b76b9be2cb0cdd3
+      internalID: -1221059419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_8
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941604eb9570adf4dacd61d6274ce0c9
+      internalID: 2126164079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_9
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19c5094694f36345a501faedb2d00ec
+      internalID: -1493209322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_10
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b02f993620b4248a2a552d4e66ff9f
+      internalID: -749584246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_11
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c467889a9c42e7d4b90dc2c984045e8d
+      internalID: 456060618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_12
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b2dd14c607b7343a313f60aaad3ee5
+      internalID: 1881931254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_13
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c3ba86022bd514e9d1abf3dddf34a1
+      internalID: 389507143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_14
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b04ce3333905e44b2b44f699fe2750
+      internalID: -1566913392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a829160b546e8be49bf1d77b6c3fc4eb
+      internalID: 69177852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_16
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c490122eebf13874d9db80c91605246b
+      internalID: 1076166874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_17
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919127f1894a75e42b3c96d465d665ba
+      internalID: -1258288423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_18
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa93ac80c6ff1cf43b2580c082f82a7d
+      internalID: 1278069417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_19
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eebd7799c2f775439c8f44bed16dab4
+      internalID: 1122718076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd94be78294027488eba5fa13fbf15b
+      internalID: 1338800289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_21
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2836fb5de5c8b47a94fe5fb23ecabe
+      internalID: -728310505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20a7111801631b4eb0324bdb361a0a2
+      internalID: -1331824858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_23
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c4019a1a308fd459438f0a1a38525b
+      internalID: 755719477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_24
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66da26a56e9548b479652faf7edaa89e
+      internalID: -1234925612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_25
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dab911d7b3580f4b9a7ad159941c7d0
+      internalID: 320390982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_26
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6c4accf8e6a5f489ae7959f3fd74c2
+      internalID: -2091941991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_27
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13451974185bf664881d85bbb8d2eeb9
+      internalID: 636132223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_28
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3bcbcafd5c0134f806ee4bf3765d10
+      internalID: -707022805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_29
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 108
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e9ed1ee75fbdd47aebda745ecc4a8a
+      internalID: 539154123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_30
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392cc5c1b7beb9c4d8a514fd2d396b64
+      internalID: 1457551887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_31
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da10f291e4e6d374481ef1cff2f3a562
+      internalID: -1634154372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_32
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15972bef8f101e4980715fa573d673e
+      internalID: -1433425351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_33
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255f7db6903416042a51df2c9f26f552
+      internalID: 1874246104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_34
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64e0e408247e0641807d1efdb4b857f
+      internalID: 569308673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_35
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d849514a28a3543448eecd53fdc98bf6
+      internalID: -2013657488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_36
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d54de46f1e8cb44b4df346d63825ea
+      internalID: 1249279501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_37
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d237a3f46038514fac682c5f2a2cc9b
+      internalID: 1786726892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_38
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 106
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e5f161f868f6744b6164e6c318f68d
+      internalID: 630828419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_39
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e988a317ca2730f418d180919ba2e1c4
+      internalID: 533261310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_40
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d49b0127e1ca94c932123a6a487e28
+      internalID: -2068827801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_41
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc2fad8913362c4098d243c1115e52f
+      internalID: -246154032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_42
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3a98d567b86f048aa6cfcaaa9a1f08
+      internalID: -1593437307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_43
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e071a233e27198d4a9d0aa2292be4622
+      internalID: -555108205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_44
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9631c34db011eec4ba41f148c17ceaf7
+      internalID: 931067029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_45
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df77a5345eae1541afe40da15c03a4c
+      internalID: 1399032488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_46
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d821f385d83edf4b83d9c5772d3d0d4
+      internalID: -1968468768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_47
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8818e954e1ec2a74f8d8c3b2411f0b31
+      internalID: 1594331561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_48
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2967fd67bbdb744ae08dc9e8ad134c
+      internalID: 16266730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_49
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3aa79d94db9d24dab1b0737897ef48
+      internalID: -1617663376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_50
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eaa439a93a3115448a738a0cba51c79
+      internalID: 1692445692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_51
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589f5fa65edabdd4b8e315a854669360
+      internalID: -1863488106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_52
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8363627e124b3e04ba3b5744f154d199
+      internalID: -1974502359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_53
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1527c4c919e498d49910006465c3acb7
+      internalID: -1297520233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_54
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c49f702257cdf47975aa8a67791dfa
+      internalID: 1507640671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_55
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909cad6e49bbc064a9c99e270c70e4b6
+      internalID: -1945731637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_56
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df68c4018c873d546b4254b82f5f2f15
+      internalID: 142178845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_57
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95d56c72672a4f4da2533606a6bce55
+      internalID: 112805238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_58
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e488688ca896e09488c356afab9cb10e
+      internalID: -37589682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_59
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a598598193d206343905f5caf6a5f009
+      internalID: -1793660957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_60
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b696ae2cb58846548add1509273f6e46
+      internalID: -1557227922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_61
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891d6d2993e1b0c41a18964c6ef3a81f
+      internalID: -1139934630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_62
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d760282c26f4a4db8dee3acc0551f9
+      internalID: 1663565926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_63
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbfca927c398f645b32f77a76fd93d2
+      internalID: -1431845577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_64
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20080eda605f2a64cbc99157ca8cc736
+      internalID: 1033845564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_65
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71781f9015057814393250a8c1d76fa3
+      internalID: -257058767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_66
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a100a71b580e145bf423c02b00d163
+      internalID: -1453338173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_67
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2e12ec4f8c7c444bf10ee801089047
+      internalID: 1195402258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_68
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de70b7404eb65a247820b5e10b1c365e
+      internalID: 1926259078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_69
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f21d7790a15564a82f2e0ba2ea6216
+      internalID: 160828733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_70
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3811830b9d7ab4a82f9840aad00428
+      internalID: -1654889114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_71
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30775b7beef7bfa42849e3f4adef87ce
+      internalID: 902541841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_72
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178f936930b0f0f44a671bde9b75c6e5
+      internalID: -1479943133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_73
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e252e016c0cfffe47ba37bceb5e97d2b
+      internalID: 457880634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_74
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8830205fb25ba454ca4dd1df4a7ced07
+      internalID: -506149013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_75
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fe64473de52a84ca1f3b871fd59d1d
+      internalID: -2021486483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_76
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec7ac2791327d74ba0ed6506828f016
+      internalID: 440549966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_77
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0872220619b457845bc97e285ebee789
+      internalID: 461999149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_78
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1d96224bd7510479daeb406269fd17
+      internalID: -381471079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_79
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b38301c8ba0c3146986c20434cc6524
+      internalID: -2077406661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_80
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05327c145d5fbec41a55252a1cc16832
+      internalID: -1365065887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_81
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24c286b60c3b0c46aff987d3a39e980
+      internalID: -720163080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_82
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a0ef4dafe94dc479e7da36f85d9335
+      internalID: -1181293565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_83
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db04680d7b02d604b8ec98350fd7d5a2
+      internalID: 515190217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_84
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a41e82070ae1c45b177a8484d14fc6
+      internalID: -1100663570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_85
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299961f76122d96408be239f3942108c
+      internalID: -1961772337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_86
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa6fced21dd2d54b937d32e7fb7f202
+      internalID: -22174847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_87
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8db133fe1f3c948a1769f800dccb05
+      internalID: 1975269631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_88
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32503283952f0b144af60e8556a78b26
+      internalID: 978833119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_89
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b891ae0363992489e53c0b628b9220
+      internalID: 1192996282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_90
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a57b7c216d35b045a2b6dc64e9e1958
+      internalID: -157787259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_91
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de9033bb8de8b749a97c5422b375f19
+      internalID: 551270150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_92
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4f5f2542943ed41921d19bce851d4c
+      internalID: 1305043685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_93
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112bc76056d8d5546b5f224bee39ce74
+      internalID: 1893868408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_94
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7e07d37fbc9924cba04b9b7d7aba71
+      internalID: -1442389958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_95
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d40358f1374564aad56762891c049f
+      internalID: -1779322674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_96
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d780bd1fed1179249aeb9a47adf82959
+      internalID: -397815024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_97
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adf2f51e251c0440af2cca0e98c6392
+      internalID: -1163737624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_98
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481f3c5670170c44196d5d69e47debd2
+      internalID: -912318720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_99
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84007b8e20872a40bbb8146b873a1f8
+      internalID: 1246744548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_100
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d934c3b32a9e6c041a814aec8183bf66
+      internalID: 1718358590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_101
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7247f52c04cbdb45946817d832d68b6
+      internalID: -461240628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_102
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48b998fedb019d46b0209a6867b06ba
+      internalID: -1652576044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_103
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747ca8fd0074a8e48841e00e32e09d46
+      internalID: -1843094584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_104
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d2b53740d2ea04e8f1aa8f8e7725cc
+      internalID: -261448345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_105
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc7433f1f8f3754d9e8dbe6625ebca7
+      internalID: 1184517611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_106
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44e0a3dc5ab9b347bf7a9edb049b437
+      internalID: 1681208779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_107
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9dedbfda22224469518b7fab70a5db
+      internalID: 24424692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_108
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafaebe621c2c664290a88db3eb2b1be
+      internalID: 1602794826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_109
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27a6b7ef77c4b345965ec90bb591969
+      internalID: 1914260411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_110
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913cb8d9d9741d44ba03b731e88ea62e
+      internalID: -2138041927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_111
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9f612559578144f8dec3c3a50a008e
+      internalID: -245828497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_112
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8499f2f62dd860d4ea153700bb34325c
+      internalID: -905704617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_113
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c80364e9ed16c49b3d3fbfecc5bc1c
+      internalID: -953302430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_114
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83900faa0b1630046be8d37b4e481c45
+      internalID: 561149442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_115
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87f39891602bfe4fb2db56101c82dbc
+      internalID: -975649019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_116
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d688d2b01848745952d537f6e5a708
+      internalID: -2037831558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_117
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57249178d95e7494886d928e5b4d89f8
+      internalID: 942615633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_118
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ee189faef28cc4c81e6a200c797892
+      internalID: 1992328035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_119
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15168ae06dea92f4f8fcae4f5db48d87
+      internalID: -2082738411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_120
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b13dffbdf4df604e9804466343f9b00
+      internalID: 1904562733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_121
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ccdc2c2fdb47341ab7d10e7a252234
+      internalID: 761258249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_122
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590dc347b6e65694d96ed683023ddccd
+      internalID: 1555951683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_123
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72ab3e82ac79644f92821296dd6d457
+      internalID: 1390760149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_124
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952f7614bd5d64f43bc1359b8c1c094c
+      internalID: -609984199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_125
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae34a3fd7e6c4934da2b13123971da69
+      internalID: 1163800815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_126
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6660138d5f414941bc22e849d532716
+      internalID: 601869759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_127
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09deafa58535444a996b38acc929962
+      internalID: 453267557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_128
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc0ebaf56cbfc343aae8ffce5115ff1
+      internalID: -510254875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_129
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e78ac7bb318c242838ca25a0470c5b
+      internalID: -460726134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_130
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fdc8fa20637c443b4e714700c9023b
+      internalID: -1979793179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_131
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139107c096068bf41ad64b96b900400b
+      internalID: 623235578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_132
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa90513d3e9ee44283de73c4d0b0817
+      internalID: -1157688164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_133
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f5ea0d937175c40874fdc9e4b646b3
+      internalID: -749621288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_134
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d9c72258a948e44ae42e41c790394d
+      internalID: -1364344703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_135
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2456d605bc0fd47a63471cdb8ee573
+      internalID: 891911856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_136
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb27e76cf803dc048a2554817cbaa1c8
+      internalID: 324743443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_137
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6f4d0a393679445af520589d8bc95d
+      internalID: -72344124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_138
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9218006758f14a459cbb210e9ef7ebe
+      internalID: 194497523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_139
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1602e1b691e77da4295ef03be6153ac5
+      internalID: -1682961008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_140
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b21f28f8729160428da444575bd82fd
+      internalID: -1736045392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_141
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33a5a6dd626fd14a904266547615729
+      internalID: 1411483007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_142
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47a7c46cecd8a944a04a4763a1eda62
+      internalID: 736112932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_143
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52e225676618b6408af0c7c257a5ccd
+      internalID: 1585897692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_144
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa29d0df822b97142a248ed89047fc35
+      internalID: 664969001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_145
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d789e68ebb79641b2e4f2af6c30d1c
+      internalID: 1063465957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_146
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642ca72d276e03d43a18b6a236ab15a0
+      internalID: -2036753088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_147
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5f98189d5cd294fbcc37697b50459b
+      internalID: -1179805437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_148
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36171cf4f603d77498d58beed934acff
+      internalID: -1795862704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_149
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dcbeaf9afe60c4da622adb9f57e4eb
+      internalID: -1020201981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_150
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a39580767e53d8408bb7e11b22a7dba
+      internalID: 1328224517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_151
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4e3ac2dfda1e14da0a4342cb9a78fd
+      internalID: 1781629724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_152
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea219e8455452f45bea25566a4f2d0f
+      internalID: -236231261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_153
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 26
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e16ab311a235740876901150335e78
+      internalID: 146512459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_154
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6ba9737801d2240b6b23f6c0001cc6
+      internalID: -487233595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_155
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17725a57635b7844c8952dddeab48f62
+      internalID: 1646686089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_156
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753f8ad7d858c584f98fee6e700bdf5b
+      internalID: -2061232006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_157
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b33d673cf3f55b4d99306d8d5fe08d2
+      internalID: -91959738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_158
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836fec5d98a73b94790237b27527664f
+      internalID: 506270933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_159
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc829ba291b9dbd4e80f88752338664d
+      internalID: 1748405278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_160
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097319b2013988a4dad3aed94d033c85
+      internalID: 1541001309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_161
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17172e2fdd93d2d4abf2017b063af26d
+      internalID: 1052826226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_162
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b040a6d2580dee043be0320665b0b378
+      internalID: -2009895893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_163
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7acd9c50c7c05418c91726f498d30e
+      internalID: -931842170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_164
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1130f02082e8d4cbd4fe74f047e12b
+      internalID: 914975957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_165
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa98032bb700804a894fef6e04e2a95
+      internalID: 1189160859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_166
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594b7c58e8094cc40be664ce51bbcaa8
+      internalID: -2027950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_167
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89901f42f186e14a8624e634df4d182
+      internalID: -475408462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_168
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e786a85661e318644917c63d7a8e41d2
+      internalID: 1458991731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_169
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a020f12e5933714cb35738bc4ae2d6a
+      internalID: -1597364042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_170
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 3
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4554bef1fae04b945915354fa5228165
+      internalID: -91236888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_171
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 3
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39aac99b4925c9741bce303f125175af
+      internalID: -1892807009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_172
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6e634f22ea4b6438f87d7c11f6557e
+      internalID: 124663336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_173
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cc8ce1a748bff4ba60d084aa5e7e23
+      internalID: 1181807086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_174
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2312e16c1d100bb42adcac092ef2cb92
+      internalID: -1869406725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_175
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcca6e350126bd4585e6059daa35de1
+      internalID: -2007650842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_176
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6f54d5f8e02b9499cf6c3ab08a3f54
+      internalID: 932541683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_177
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8b2331b65580f4e8b97ec25bca029b
+      internalID: -1166584487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_178
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 3
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322b2bf18c75edc489af961bb21962ef
+      internalID: 159172148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_179
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 3
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a844989f944fc4489186e8c00d4aaf6
+      internalID: -108464219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_180
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 3
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baae8869cd283f545a86fd0856989f17
+      internalID: -522151761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_181
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 3
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e48784556567194ab0f0e8a95ea972d
+      internalID: 1009521192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_182
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fe69e25c99cf846bff6b238cbcca2a
+      internalID: -376552129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_183
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dfbba27c2e0534d898cebbca5d6e34
+      internalID: 397646865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_184
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26c7db53c3fed34a8293b50983eb4aa
+      internalID: 727921202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_185
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98acb8e35a94254e868dd5517780f3f
+      internalID: -1737888734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_186
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594c753f6e3557942b1e98075552fe96
+      internalID: 741919152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemiesBubbleBobble_187
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f523bab7d3f390b4ba9aab2670d1a947
+      internalID: -1751164258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EnemiesBubbleBobble_0: 848477278
+      EnemiesBubbleBobble_1: 265150049
+      EnemiesBubbleBobble_10: -749584246
+      EnemiesBubbleBobble_100: 1718358590
+      EnemiesBubbleBobble_101: -461240628
+      EnemiesBubbleBobble_102: -1652576044
+      EnemiesBubbleBobble_103: -1843094584
+      EnemiesBubbleBobble_104: -261448345
+      EnemiesBubbleBobble_105: 1184517611
+      EnemiesBubbleBobble_106: 1681208779
+      EnemiesBubbleBobble_107: 24424692
+      EnemiesBubbleBobble_108: 1602794826
+      EnemiesBubbleBobble_109: 1914260411
+      EnemiesBubbleBobble_11: 456060618
+      EnemiesBubbleBobble_110: -2138041927
+      EnemiesBubbleBobble_111: -245828497
+      EnemiesBubbleBobble_112: -905704617
+      EnemiesBubbleBobble_113: -953302430
+      EnemiesBubbleBobble_114: 561149442
+      EnemiesBubbleBobble_115: -975649019
+      EnemiesBubbleBobble_116: -2037831558
+      EnemiesBubbleBobble_117: 942615633
+      EnemiesBubbleBobble_118: 1992328035
+      EnemiesBubbleBobble_119: -2082738411
+      EnemiesBubbleBobble_12: 1881931254
+      EnemiesBubbleBobble_120: 1904562733
+      EnemiesBubbleBobble_121: 761258249
+      EnemiesBubbleBobble_122: 1555951683
+      EnemiesBubbleBobble_123: 1390760149
+      EnemiesBubbleBobble_124: -609984199
+      EnemiesBubbleBobble_125: 1163800815
+      EnemiesBubbleBobble_126: 601869759
+      EnemiesBubbleBobble_127: 453267557
+      EnemiesBubbleBobble_128: -510254875
+      EnemiesBubbleBobble_129: -460726134
+      EnemiesBubbleBobble_13: 389507143
+      EnemiesBubbleBobble_130: -1979793179
+      EnemiesBubbleBobble_131: 623235578
+      EnemiesBubbleBobble_132: -1157688164
+      EnemiesBubbleBobble_133: -749621288
+      EnemiesBubbleBobble_134: -1364344703
+      EnemiesBubbleBobble_135: 891911856
+      EnemiesBubbleBobble_136: 324743443
+      EnemiesBubbleBobble_137: -72344124
+      EnemiesBubbleBobble_138: 194497523
+      EnemiesBubbleBobble_139: -1682961008
+      EnemiesBubbleBobble_14: -1566913392
+      EnemiesBubbleBobble_140: -1736045392
+      EnemiesBubbleBobble_141: 1411483007
+      EnemiesBubbleBobble_142: 736112932
+      EnemiesBubbleBobble_143: 1585897692
+      EnemiesBubbleBobble_144: 664969001
+      EnemiesBubbleBobble_145: 1063465957
+      EnemiesBubbleBobble_146: -2036753088
+      EnemiesBubbleBobble_147: -1179805437
+      EnemiesBubbleBobble_148: -1795862704
+      EnemiesBubbleBobble_149: -1020201981
+      EnemiesBubbleBobble_15: 69177852
+      EnemiesBubbleBobble_150: 1328224517
+      EnemiesBubbleBobble_151: 1781629724
+      EnemiesBubbleBobble_152: -236231261
+      EnemiesBubbleBobble_153: 146512459
+      EnemiesBubbleBobble_154: -487233595
+      EnemiesBubbleBobble_155: 1646686089
+      EnemiesBubbleBobble_156: -2061232006
+      EnemiesBubbleBobble_157: -91959738
+      EnemiesBubbleBobble_158: 506270933
+      EnemiesBubbleBobble_159: 1748405278
+      EnemiesBubbleBobble_16: 1076166874
+      EnemiesBubbleBobble_160: 1541001309
+      EnemiesBubbleBobble_161: 1052826226
+      EnemiesBubbleBobble_162: -2009895893
+      EnemiesBubbleBobble_163: -931842170
+      EnemiesBubbleBobble_164: 914975957
+      EnemiesBubbleBobble_165: 1189160859
+      EnemiesBubbleBobble_166: -2027950
+      EnemiesBubbleBobble_167: -475408462
+      EnemiesBubbleBobble_168: 1458991731
+      EnemiesBubbleBobble_169: -1597364042
+      EnemiesBubbleBobble_17: -1258288423
+      EnemiesBubbleBobble_170: -91236888
+      EnemiesBubbleBobble_171: -1892807009
+      EnemiesBubbleBobble_172: 124663336
+      EnemiesBubbleBobble_173: 1181807086
+      EnemiesBubbleBobble_174: -1869406725
+      EnemiesBubbleBobble_175: -2007650842
+      EnemiesBubbleBobble_176: 932541683
+      EnemiesBubbleBobble_177: -1166584487
+      EnemiesBubbleBobble_178: 159172148
+      EnemiesBubbleBobble_179: -108464219
+      EnemiesBubbleBobble_18: 1278069417
+      EnemiesBubbleBobble_180: -522151761
+      EnemiesBubbleBobble_181: 1009521192
+      EnemiesBubbleBobble_182: -376552129
+      EnemiesBubbleBobble_183: 397646865
+      EnemiesBubbleBobble_184: 727921202
+      EnemiesBubbleBobble_185: -1737888734
+      EnemiesBubbleBobble_186: 741919152
+      EnemiesBubbleBobble_187: -1751164258
+      EnemiesBubbleBobble_19: 1122718076
+      EnemiesBubbleBobble_2: -419089088
+      EnemiesBubbleBobble_20: 1338800289
+      EnemiesBubbleBobble_21: -728310505
+      EnemiesBubbleBobble_22: -1331824858
+      EnemiesBubbleBobble_23: 755719477
+      EnemiesBubbleBobble_24: -1234925612
+      EnemiesBubbleBobble_25: 320390982
+      EnemiesBubbleBobble_26: -2091941991
+      EnemiesBubbleBobble_27: 636132223
+      EnemiesBubbleBobble_28: -707022805
+      EnemiesBubbleBobble_29: 539154123
+      EnemiesBubbleBobble_3: 1619703130
+      EnemiesBubbleBobble_30: 1457551887
+      EnemiesBubbleBobble_31: -1634154372
+      EnemiesBubbleBobble_32: -1433425351
+      EnemiesBubbleBobble_33: 1874246104
+      EnemiesBubbleBobble_34: 569308673
+      EnemiesBubbleBobble_35: -2013657488
+      EnemiesBubbleBobble_36: 1249279501
+      EnemiesBubbleBobble_37: 1786726892
+      EnemiesBubbleBobble_38: 630828419
+      EnemiesBubbleBobble_39: 533261310
+      EnemiesBubbleBobble_4: -332581234
+      EnemiesBubbleBobble_40: -2068827801
+      EnemiesBubbleBobble_41: -246154032
+      EnemiesBubbleBobble_42: -1593437307
+      EnemiesBubbleBobble_43: -555108205
+      EnemiesBubbleBobble_44: 931067029
+      EnemiesBubbleBobble_45: 1399032488
+      EnemiesBubbleBobble_46: -1968468768
+      EnemiesBubbleBobble_47: 1594331561
+      EnemiesBubbleBobble_48: 16266730
+      EnemiesBubbleBobble_49: -1617663376
+      EnemiesBubbleBobble_5: 1387399463
+      EnemiesBubbleBobble_50: 1692445692
+      EnemiesBubbleBobble_51: -1863488106
+      EnemiesBubbleBobble_52: -1974502359
+      EnemiesBubbleBobble_53: -1297520233
+      EnemiesBubbleBobble_54: 1507640671
+      EnemiesBubbleBobble_55: -1945731637
+      EnemiesBubbleBobble_56: 142178845
+      EnemiesBubbleBobble_57: 112805238
+      EnemiesBubbleBobble_58: -37589682
+      EnemiesBubbleBobble_59: -1793660957
+      EnemiesBubbleBobble_6: 1766512801
+      EnemiesBubbleBobble_60: -1557227922
+      EnemiesBubbleBobble_61: -1139934630
+      EnemiesBubbleBobble_62: 1663565926
+      EnemiesBubbleBobble_63: -1431845577
+      EnemiesBubbleBobble_64: 1033845564
+      EnemiesBubbleBobble_65: -257058767
+      EnemiesBubbleBobble_66: -1453338173
+      EnemiesBubbleBobble_67: 1195402258
+      EnemiesBubbleBobble_68: 1926259078
+      EnemiesBubbleBobble_69: 160828733
+      EnemiesBubbleBobble_7: -1221059419
+      EnemiesBubbleBobble_70: -1654889114
+      EnemiesBubbleBobble_71: 902541841
+      EnemiesBubbleBobble_72: -1479943133
+      EnemiesBubbleBobble_73: 457880634
+      EnemiesBubbleBobble_74: -506149013
+      EnemiesBubbleBobble_75: -2021486483
+      EnemiesBubbleBobble_76: 440549966
+      EnemiesBubbleBobble_77: 461999149
+      EnemiesBubbleBobble_78: -381471079
+      EnemiesBubbleBobble_79: -2077406661
+      EnemiesBubbleBobble_8: 2126164079
+      EnemiesBubbleBobble_80: -1365065887
+      EnemiesBubbleBobble_81: -720163080
+      EnemiesBubbleBobble_82: -1181293565
+      EnemiesBubbleBobble_83: 515190217
+      EnemiesBubbleBobble_84: -1100663570
+      EnemiesBubbleBobble_85: -1961772337
+      EnemiesBubbleBobble_86: -22174847
+      EnemiesBubbleBobble_87: 1975269631
+      EnemiesBubbleBobble_88: 978833119
+      EnemiesBubbleBobble_89: 1192996282
+      EnemiesBubbleBobble_9: -1493209322
+      EnemiesBubbleBobble_90: -157787259
+      EnemiesBubbleBobble_91: 551270150
+      EnemiesBubbleBobble_92: 1305043685
+      EnemiesBubbleBobble_93: 1893868408
+      EnemiesBubbleBobble_94: -1442389958
+      EnemiesBubbleBobble_95: -1779322674
+      EnemiesBubbleBobble_96: -397815024
+      EnemiesBubbleBobble_97: -1163737624
+      EnemiesBubbleBobble_98: -912318720
+      EnemiesBubbleBobble_99: 1246744548
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

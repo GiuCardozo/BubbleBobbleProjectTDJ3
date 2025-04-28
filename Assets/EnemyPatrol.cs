@@ -7,7 +7,7 @@ public class EnemyPatrol : MonoBehaviour
     public float wallCheckDistance = 0.5f;
     public LayerMask wallLayer;
 
-    private int moveDirection = 1;
+    private int moveDirection = -1; // Comienza hacia la izquierda
 
     void Update()
     {

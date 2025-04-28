@@ -1,5 +1,4 @@
-
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -21,14 +20,31 @@ public class Bubble : MonoBehaviour
     private bool isReturning = false;
     private bool isFloatingUp = false;
     private bool poppedByPlayer = false;
+    private bool alreadyPopping = false;
 
     public enum State { Normal, Captured }
     public State currentState = State.Normal;
 
     private GameObject capturedEnemy;
-    private List<GameObject> nearbyBubbles = new List<GameObject>();
+    private Animator animator;
 
-    void Start()
+    private List<Bubble> connectedBubbles = new List<Bubble>();
+
+    // Referencia al script Puntaje
+    private Puntaje puntaje;
+    [SerializeField] private float cantidadPuntos = 100f; // Puntos a sumar
+
+    // Prefabs de frutas
+    [SerializeField] private GameObject fruta1Prefab;
+    [SerializeField] private GameObject fruta2Prefab;
+    [SerializeField] private GameObject fruta3Prefab;
+    [SerializeField] private GameObject fruta4Prefab;
+
+    // 🔥 NUEVO: Sonido
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip popSound;
+
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -37,6 +53,19 @@ public class Bubble : MonoBehaviour
         rb.velocity = shootDirection * shootSpeed;
 
         StartCoroutine(Lifetime());
+
+        animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+
+        GameObject puntosObject = GameObject.Find("Puntos");
+        if (puntosObject != null)
+        {
+            puntaje = puntosObject.GetComponent<Puntaje>();
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró el GameObject 'Puntos'.");
+        }
     }
 
     public void SetDirection(Vector2 dir)
@@ -67,95 +96,151 @@ public class Bubble : MonoBehaviour
         DestroyBubble();
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        if (other.CompareTag("Player") && currentState == State.Captured)
+        Debug.Log($"Bubble collided with {collision.gameObject.name} and tag {collision.gameObject.tag}");
+
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Wall"))
+        {
+            DestroyBubble();
+        }
+
+        if (collision.gameObject.CompareTag("Player") && currentState == State.Captured)
         {
             poppedByPlayer = true;
             DestroyBubble();
         }
 
-        if (currentState == State.Captured) return;
+        if (currentState == State.Captured)
+        {
+            if (collision.gameObject.CompareTag("Bubble"))
+            {
+                Bubble otherBubble = collision.gameObject.GetComponent<Bubble>();
+                if (otherBubble != null && otherBubble.currentState == State.Captured)
+                {
+                    TryConnect(otherBubble);
+                }
+            }
+            return;
+        }
 
-        if (other.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Enemy"))
         {
-            sr.sprite = enemy1Sprite;
-            CaptureEnemy(other.gameObject);
+            CaptureEnemy(collision.gameObject, enemy1Sprite);
         }
-        else if (other.CompareTag("Enemy2"))
+        else if (collision.gameObject.CompareTag("Enemy2"))
         {
-            sr.sprite = enemy2Sprite;
-            CaptureEnemy(other.gameObject);
+            CaptureEnemy(collision.gameObject, enemy2Sprite);
         }
-        else if (other.CompareTag("Enemy3"))
+        else if (collision.gameObject.CompareTag("Enemy3"))
         {
-            sr.sprite = enemy3Sprite;
-            CaptureEnemy(other.gameObject);
+            CaptureEnemy(collision.gameObject, enemy3Sprite);
         }
     }
 
-    void CaptureEnemy(GameObject enemy)
+    void CaptureEnemy(GameObject enemy, Sprite capturedSprite)
     {
         currentState = State.Captured;
         capturedEnemy = enemy;
         enemy.SetActive(false);
         isFloatingUp = true;
         rb.velocity = Vector2.up * floatSpeed;
+
+        if (animator != null)
+        {
+            animator.enabled = false;
+        }
+
+        sr.sprite = capturedSprite;
     }
 
     void DestroyBubble()
     {
+        if (alreadyPopping) return;
+        alreadyPopping = true;
+
+        // 🔥 Reproducimos el sonido ANTES de destruir
+        if (popSound != null)
+        {
+            AudioSource.PlayClipAtPoint(popSound, transform.position);
+        }
+
+        if (puntaje != null)
+        {
+            puntaje.SumarPuntos(cantidadPuntos);
+        }
+
+        float probabilidad = Random.Range(0f, 1f);
+        if (probabilidad <= 0.2f)
+        {
+            GameObject frutaElegida = EligeFrutaAleatoria();
+            Instantiate(frutaElegida, transform.position, Quaternion.identity);
+        }
+
         if (capturedEnemy != null && !poppedByPlayer)
         {
             capturedEnemy.transform.position = transform.position;
             capturedEnemy.SetActive(true);
         }
 
+        if (animator != null)
+        {
+            animator.enabled = true;
+            animator.SetTrigger("Pop");
+            StartCoroutine(DestroyAfterAnimation());
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    GameObject EligeFrutaAleatoria()
+    {
+        int frutaIndex = Random.Range(0, 4);
+        switch (frutaIndex)
+        {
+            case 0: return fruta1Prefab;
+            case 1: return fruta2Prefab;
+            case 2: return fruta3Prefab;
+            case 3: return fruta4Prefab;
+            default: return null;
+        }
+    }
+
+    IEnumerator DestroyAfterAnimation()
+    {
+        yield return new WaitForSeconds(0.5f);
         Destroy(gameObject);
     }
 
-    public void ForcePop()
+    void TryConnect(Bubble other)
     {
-        if (currentState == State.Captured) return;
+        if (connectedBubbles.Contains(other)) return;
+        connectedBubbles.Add(other);
+        other.connectedBubbles.Add(this);
 
-        poppedByPlayer = true;
-        DestroyBubble();
-    }
+        List<Bubble> allConnected = new List<Bubble>();
+        GetAllConnectedBubbles(this, allConnected);
 
-    void OnCollisionStay2D(Collision2D collision)
-    {
-        if (currentState != State.Captured && collision.gameObject.CompareTag("Bubble"))
+        if (allConnected.Count >= 4)
         {
-            Bubble other = collision.gameObject.GetComponent<Bubble>();
-            if (other != null && other.currentState != State.Captured && !nearbyBubbles.Contains(other.gameObject))
+            foreach (Bubble b in allConnected)
             {
-                nearbyBubbles.Add(other.gameObject);
-            }
-
-            if (nearbyBubbles.Count >= 3)
-            {
-                List<GameObject> bubblesToPop = new List<GameObject>(nearbyBubbles);
-
-                foreach (GameObject b in bubblesToPop)
-                {
-                    if (b != null)
-                    {
-                        Bubble bScript = b.GetComponent<Bubble>();
-                        if (bScript != null)
-                            bScript.ForcePop();
-                    }
-                }
-
-                ForcePop(); // Esta burbuja tambi�n se fuerza a reventar
+                b.DestroyBubble();
             }
         }
     }
 
-    void OnCollisionExit2D(Collision2D collision)
+    void GetAllConnectedBubbles(Bubble bubble, List<Bubble> list)
     {
-        if (collision.gameObject.CompareTag("Bubble"))
+        if (!list.Contains(bubble))
         {
-            nearbyBubbles.Remove(collision.gameObject);
+            list.Add(bubble);
+            foreach (Bubble connected in bubble.connectedBubbles)
+            {
+                GetAllConnectedBubbles(connected, list);
+            }
         }
     }
 }

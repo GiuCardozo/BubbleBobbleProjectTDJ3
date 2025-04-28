@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -95,7 +95,1687 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7aa62aae22f76f4a99ea2f1e7d92612
+      internalID: -1933127623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd6aa1c70b950a4996db847ef1673a7
+      internalID: -1577669624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac578347f60f45145a453e51f3879a5c
+      internalID: 1687729731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2368c3aa601906e4d9fe0ecb02ec5b22
+      internalID: -530669011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464bcf79771625941b0b7a62a04b645f
+      internalID: 1613808308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_5
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144fd3fecf387de4988f3ec28d0d058a
+      internalID: 561478972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_6
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55c8cd0b83f8e941b0b539a0f0ec997
+      internalID: -791254847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bcf85e3272bdf45bcfb493ba626e3c
+      internalID: 243867961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_8
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263e8c834074f28418885586a83184c0
+      internalID: -1119846863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aadd0a57455e2549a43be009311d178
+      internalID: 762952054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab6a17c04513204bb582cbd5983d46d
+      internalID: -526276108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_11
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b44682167958444e9ed44610ee85c32
+      internalID: -1691481762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f189cbe2e6ebe14d9d193ec35582fbb
+      internalID: 1137281053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_13
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3008bb1e7368c9f4a95a5397ba1eb82c
+      internalID: 883098857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538f5063971a555449be5cf121e0312d
+      internalID: 1099833374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038e012c46f982d4fb16f4fdaf091783
+      internalID: -1453742587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc67b53c0a1de364c94fae8e9ce67016
+      internalID: 1378440662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_17
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767a7b1162ec24e44b3e29bc6d162146
+      internalID: -597598145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_18
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b80dc17e52a8b346be433fb35a41700
+      internalID: 2014458612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_19
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81609c7f810bb742a41117ff7667c01
+      internalID: -978785723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_20
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a48a2732601264eb3d7e510fbc18b0
+      internalID: -1660851444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_21
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55856afbfae916541ad226dd8c436fa4
+      internalID: -253600429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3873c88aa40c2e242a49e3cf76441eaa
+      internalID: 817480776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_23
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13686f02569288d49b4a1ca3dbb97d21
+      internalID: 1872031536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_24
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d1b0024d3d5414882033e3c48818d5
+      internalID: 689369713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_25
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f961835cb3227ec418a564e631de7397
+      internalID: 495855846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8d6093f17c74e4e98b7c881639c7f3
+      internalID: -1357442503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_27
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a245a9988952024d8761818ae649b7e
+      internalID: 942373553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_28
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6139b1d673d77dc439536cae93a0bf8d
+      internalID: -94880393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_29
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1e374a7b58f2a46b02758b07c9755c
+      internalID: -124338279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_30
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76f1ca81d1a12e4b99fe8306d992645
+      internalID: -1059549242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_31
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1659094369b376e439f70672cf659c8c
+      internalID: -1722509760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_32
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62af13eb28059754cac2aaee7606f98e
+      internalID: -1415105033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_33
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c136558af160c4478a5db33cb1a1c10
+      internalID: -1283027622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_34
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314cdb8302b7961419775c1bba16f90c
+      internalID: 1302016409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_35
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 118
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42e44d29e2611a4aadd4cebd39fdcd5
+      internalID: 1822824137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_36
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6f77023febaae4ab1610c11bb05b21
+      internalID: 1508748908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_37
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333621ba21873f349a0d2dc7bd287920
+      internalID: 211830931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_38
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78685280151c42488e956a0e351f578
+      internalID: 968143185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_39
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8859f83d46d9e3345b8dd357dd7310b6
+      internalID: -656836920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_40
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8826fa7a3e22bf4daf8c4830be393c2
+      internalID: 891965271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_41
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df9fe974bdfef34384fad8e6f2d0d9b
+      internalID: 882046629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_42
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9980189dc08afd94aab4aa2987d1371f
+      internalID: 534978283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_43
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300d50fe7576a0f42833ac76752b3dc1
+      internalID: 558866013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_44
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99bc281c0bab8a468f46e896c3ca740
+      internalID: 439395789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_45
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c18978b792d52e43a92b8279ed4cb27
+      internalID: -485796167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_46
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05a5fd28c9dca245b95659d3e98d982
+      internalID: -591700837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_47
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d759679001c11ab4b8e6678ae2923279
+      internalID: -1070862840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_48
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6181b38c56d57304abc78ee234ac4255
+      internalID: 1482809986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_49
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fe0ebe90b9ab94ea178ef92ab883fc
+      internalID: 1673103292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_50
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bae3ea4db4a444e878c02252237cc8
+      internalID: 395665035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_51
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e63fd7cb095c0b41a63f315836d9044
+      internalID: -1056248927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_52
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935ad57fbbb2fdd41960682bfe7be147
+      internalID: -87198076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_53
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78929db8ecee7d459c019ac27ae243e
+      internalID: 401672624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_54
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422668cc524d1034ca8c3e433954f076
+      internalID: -799889970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_55
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df53634c3aae0274fb6995ef199fbbdc
+      internalID: -1253889608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_56
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d8da6e6d693a6428d29b6584205e0d
+      internalID: -1543261596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_57
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a202e910709382438c7e63d156013e9
+      internalID: 1264705699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_58
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdb3f6a934408944b8f635f525c0104
+      internalID: 28526934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_59
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491d30c7495f12f43a0d9fe6704cd49a
+      internalID: -1206170288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_60
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4720528f3a987224fbfe75e959bd285d
+      internalID: -2106393407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_61
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c4bffa54ac6fc46a369c4d73c7934c
+      internalID: 526511808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_62
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0766aabc58dea846996729bcabc8ea6
+      internalID: -1627805971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_63
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9328e58212ee049bb696ac0f53e7bb
+      internalID: 460814343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_64
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a156273f566e8284986d0684305f5a21
+      internalID: -1017071655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_65
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456ec18956cef3146be133d875167ede
+      internalID: 591059976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_66
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6950b775da8684f439a5f31eea596509
+      internalID: -570011878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_67
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd1879c61e56fd4db73fb281179ae76
+      internalID: -299573221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_68
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8fbc46836826d48aa4a1d9cf631e56
+      internalID: -1323631345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_69
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc1fa8f8a61d3548be0ad574cbdcf6c
+      internalID: -182239223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_70
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040998535e160b14a80cb3f89647b53c
+      internalID: 1691029126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_71
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf11a800910b9e4da30f5dbb0c72c21
+      internalID: -469778336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_72
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58058a0bc4c511e47aacf3fc9f58bc2d
+      internalID: -1829276209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_73
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f2b8f62206185488d2002316a33ef0
+      internalID: 2022247280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_74
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485eba7242933a94baff46411531b549
+      internalID: -636411282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_75
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5257be914714547bb730b95ac42a0b
+      internalID: 1817063883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_76
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92cc48aaac2d25479dc8c5779cb0f13
+      internalID: -87711305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_77
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b38feee41b71a645ab79435a2ad352b
+      internalID: -516792558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_78
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c55a15bf479b0a43a35bf6638862c8a
+      internalID: -2113674184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Bubble Bobble - Bubble Types_79
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d3be58b34111548878f5ae0148b6af
+      internalID: -1777453974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +1786,87 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NES - Bubble Bobble - Bubble Types_0: -1933127623
+      NES - Bubble Bobble - Bubble Types_1: -1577669624
+      NES - Bubble Bobble - Bubble Types_10: -526276108
+      NES - Bubble Bobble - Bubble Types_11: -1691481762
+      NES - Bubble Bobble - Bubble Types_12: 1137281053
+      NES - Bubble Bobble - Bubble Types_13: 883098857
+      NES - Bubble Bobble - Bubble Types_14: 1099833374
+      NES - Bubble Bobble - Bubble Types_15: -1453742587
+      NES - Bubble Bobble - Bubble Types_16: 1378440662
+      NES - Bubble Bobble - Bubble Types_17: -597598145
+      NES - Bubble Bobble - Bubble Types_18: 2014458612
+      NES - Bubble Bobble - Bubble Types_19: -978785723
+      NES - Bubble Bobble - Bubble Types_2: 1687729731
+      NES - Bubble Bobble - Bubble Types_20: -1660851444
+      NES - Bubble Bobble - Bubble Types_21: -253600429
+      NES - Bubble Bobble - Bubble Types_22: 817480776
+      NES - Bubble Bobble - Bubble Types_23: 1872031536
+      NES - Bubble Bobble - Bubble Types_24: 689369713
+      NES - Bubble Bobble - Bubble Types_25: 495855846
+      NES - Bubble Bobble - Bubble Types_26: -1357442503
+      NES - Bubble Bobble - Bubble Types_27: 942373553
+      NES - Bubble Bobble - Bubble Types_28: -94880393
+      NES - Bubble Bobble - Bubble Types_29: -124338279
+      NES - Bubble Bobble - Bubble Types_3: -530669011
+      NES - Bubble Bobble - Bubble Types_30: -1059549242
+      NES - Bubble Bobble - Bubble Types_31: -1722509760
+      NES - Bubble Bobble - Bubble Types_32: -1415105033
+      NES - Bubble Bobble - Bubble Types_33: -1283027622
+      NES - Bubble Bobble - Bubble Types_34: 1302016409
+      NES - Bubble Bobble - Bubble Types_35: 1822824137
+      NES - Bubble Bobble - Bubble Types_36: 1508748908
+      NES - Bubble Bobble - Bubble Types_37: 211830931
+      NES - Bubble Bobble - Bubble Types_38: 968143185
+      NES - Bubble Bobble - Bubble Types_39: -656836920
+      NES - Bubble Bobble - Bubble Types_4: 1613808308
+      NES - Bubble Bobble - Bubble Types_40: 891965271
+      NES - Bubble Bobble - Bubble Types_41: 882046629
+      NES - Bubble Bobble - Bubble Types_42: 534978283
+      NES - Bubble Bobble - Bubble Types_43: 558866013
+      NES - Bubble Bobble - Bubble Types_44: 439395789
+      NES - Bubble Bobble - Bubble Types_45: -485796167
+      NES - Bubble Bobble - Bubble Types_46: -591700837
+      NES - Bubble Bobble - Bubble Types_47: -1070862840
+      NES - Bubble Bobble - Bubble Types_48: 1482809986
+      NES - Bubble Bobble - Bubble Types_49: 1673103292
+      NES - Bubble Bobble - Bubble Types_5: 561478972
+      NES - Bubble Bobble - Bubble Types_50: 395665035
+      NES - Bubble Bobble - Bubble Types_51: -1056248927
+      NES - Bubble Bobble - Bubble Types_52: -87198076
+      NES - Bubble Bobble - Bubble Types_53: 401672624
+      NES - Bubble Bobble - Bubble Types_54: -799889970
+      NES - Bubble Bobble - Bubble Types_55: -1253889608
+      NES - Bubble Bobble - Bubble Types_56: -1543261596
+      NES - Bubble Bobble - Bubble Types_57: 1264705699
+      NES - Bubble Bobble - Bubble Types_58: 28526934
+      NES - Bubble Bobble - Bubble Types_59: -1206170288
+      NES - Bubble Bobble - Bubble Types_6: -791254847
+      NES - Bubble Bobble - Bubble Types_60: -2106393407
+      NES - Bubble Bobble - Bubble Types_61: 526511808
+      NES - Bubble Bobble - Bubble Types_62: -1627805971
+      NES - Bubble Bobble - Bubble Types_63: 460814343
+      NES - Bubble Bobble - Bubble Types_64: -1017071655
+      NES - Bubble Bobble - Bubble Types_65: 591059976
+      NES - Bubble Bobble - Bubble Types_66: -570011878
+      NES - Bubble Bobble - Bubble Types_67: -299573221
+      NES - Bubble Bobble - Bubble Types_68: -1323631345
+      NES - Bubble Bobble - Bubble Types_69: -182239223
+      NES - Bubble Bobble - Bubble Types_7: 243867961
+      NES - Bubble Bobble - Bubble Types_70: 1691029126
+      NES - Bubble Bobble - Bubble Types_71: -469778336
+      NES - Bubble Bobble - Bubble Types_72: -1829276209
+      NES - Bubble Bobble - Bubble Types_73: 2022247280
+      NES - Bubble Bobble - Bubble Types_74: -636411282
+      NES - Bubble Bobble - Bubble Types_75: 1817063883
+      NES - Bubble Bobble - Bubble Types_76: -87711305
+      NES - Bubble Bobble - Bubble Types_77: -516792558
+      NES - Bubble Bobble - Bubble Types_78: -2113674184
+      NES - Bubble Bobble - Bubble Types_79: -1777453974
+      NES - Bubble Bobble - Bubble Types_8: -1119846863
+      NES - Bubble Bobble - Bubble Types_9: 762952054
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
